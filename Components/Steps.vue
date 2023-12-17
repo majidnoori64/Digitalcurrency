@@ -9,7 +9,7 @@
     </div>
     <div class="flex justify-center items-center">
       <span
-        :class="active === 1 ? 'bg-green-700 h-1' : 'bg-gray-300 h-0.5'"
+        :class="active === 2 ? 'bg-green-700 h-1' : 'bg-gray-300 h-0.5'"
         class=" w-96"
       ></span>
       <span
@@ -20,7 +20,7 @@
     </div>
     <div class="flex justify-center items-center">
       <span
-        :class="active === 2 ? 'bg-green-700 h-1' : 'bg-gray-300 h-0.5'"
+        :class="active === 3  ? 'bg-green-700 h-1' : 'bg-gray-300 h-0.5'"
         class=" w-96 "
       ></span>
       <span
